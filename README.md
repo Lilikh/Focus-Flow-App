@@ -4,6 +4,7 @@ AI Mindfulness är en applikation som använder en stor språkmodell för att er
 ett skräddarsytt dagligt schema med övningar och meditationer. Applikationen syftar till att förbättra mental hälsa, stärka minnet och förbereda användare för vardagliga utmaningar.
 
 *** Målgrupp ***
+
 Tjänsten riktar sig till individer som vill förbättra sin mentala hälsa och få hjälp med mindfulness och meditation. Målgruppen inkluderar:
 
 Studenter som söker stresshantering.
@@ -13,6 +14,7 @@ Teknologi och krav
 Tjänsten använder en stor språkmodell och modern AI-teknik baserad på maskininlärning. Den kan köras antingen lokalt på kursledarens MacBook eller som en webbtjänst.
 
 *** Krav på tjänsten ***
+
 Användning av en stor språkmodell eller molnbaserad AI.
 Delvis utvecklad med AI-stöd.
 Grundläggande dokumentation som beskriver tjänstens funktion, målgrupp, och etiska överväganden.
@@ -20,6 +22,7 @@ Etiska och säkerhetsöverväganden
 Under utvecklingen av AI Mindfulness har vi tagit hänsyn till följande etiska frågor:
 
 Integritet: Användardata hanteras med största sekretess och lagras säkert.
+
 Användarsäkerhet: Tjänsten är utformad för att vara trygg och användarvänlig.
 Bias i AI: Jag strävar efter att minimera bias i AI-modellen genom att noggrant välja träningsdata och testa resultaten.
 Utvecklingsöverväganden
