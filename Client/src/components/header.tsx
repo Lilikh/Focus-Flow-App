@@ -6,8 +6,8 @@ const Header = () => {
   const [showModal, setShowModal] = useState(false);
 
   return (
-    <header className="flex justify-between items-center p-4 bg-blue-500 text-white shadow-md">
-      <h1 className="text-2xl font-bold">AI Mindfulness Mentor</h1>
+    <header className="flex justify-between items-center p-4 bg-blue-300 text-white shadow-md">
+      <h1 className="text-2xl font-bold">Focus & Flow</h1>
       <div
         className="cursor-pointer flex items-center"
         onClick={() => setShowModal(true)} // Show modal on click

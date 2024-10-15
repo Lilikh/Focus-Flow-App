@@ -63,16 +63,17 @@ function App() {
       <Header />
       <div className="container">
         <header>
-          <h1>Mood Analysis App</h1>
-          <p>An AI-powered assistant to analyze your mood based on your inputs.</p>
+          <h1> An AI-Powered Mindfulness Experience</h1>
+          <p className='text-white'>Utilizing AI to create tailored mindfulness experiences for enhanced well-being</p>
         </header>
         
         {/* Updated Card Layout */}
-        <div className="main flex flex-row flex-wrap justify-between gap-4">
+        <div className="main flex flex-row flex-wrap justify-between bg gap-4">
           <Card
             title="AI Mood Mentor"
             description="Click to analyze your mood with AI."
             onClick={handleAnalyzeMoodClick}
+            
           />
           <Card 
             title="Breathing Exercises" 

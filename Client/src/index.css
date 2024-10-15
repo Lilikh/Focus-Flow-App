@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 body {
-    background-color: #1e1e1e;
+   background-image: url('./components/istockphoto-1414443021-612x612.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
     color: #ffffff;
     font-family: 'Arial', sans-serif;
 }
