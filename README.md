@@ -29,7 +29,9 @@ Funktionalitet vs. användarvänlighet: Prioritering av en enkel och intuitiv an
 Tidsbegränsningar: Givet den korta utvecklingstiden, kan vissa funktioner fortfarande ha buggar och brister, men tjänsten är fullt användbar.
 
 *** Installation ***
+
 -- Krav
+
 Node.js: För att köra backend med Express. Ladda ner här.
 npm: Ingår med Node.js, används för att installera beroenden.
 Git: För att klona repositoryt från GitHub. Ladda ner här.
@@ -37,5 +39,7 @@ React och TypeScript: Används för frontend-utveckling.
 MongoDB: För datalagring av användardata. Se till att ha en MongoDB-databas konfigurerad.
 Konfigurera din .env-fil:
 Skapa en .env-fil i projektroten och lägg till dina API-nycklar för AI och behörigheter för MongoDB.
+
 Notera att .env-filen finns i .gitignore för att skydda känslig information.
+
 Applikationen bör nu vara tillgänglig på http://localhost:3000. Om du behöver tillgång till .env-filen, vänligen kontakta mig så kan jag skicka den till dig.
