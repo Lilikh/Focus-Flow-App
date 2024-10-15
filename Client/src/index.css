@@ -9,6 +9,7 @@ body {
 }
 
 .container {
+    
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
@@ -138,5 +139,35 @@ button:hover {
     width: 100%;
     height: 100px;
     margin-bottom: 10px;
+  }
+  
+  .breathing-circle-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .breathing-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #76c7c0;
+    transition: transform 4s ease-in-out;
+  }
+  
+  .breathing-circle.inhale {
+    transform: scale(1.2); /* Expands during inhale */
+  }
+  
+  .breathing-circle.exhale {
+    transform: scale(0.8); /* Contracts during exhale */
+  }
+  
+  .breath-instructions {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
   }
   

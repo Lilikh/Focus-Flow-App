@@ -22,7 +22,7 @@ const MoodAnalyzer: React.FC<MoodAnalyzerProps> = ({ onAnalyze, mood, onClose })
       {/* Close Button */}
       <button
         onClick={onClose} // Call the close function passed as a prop
-        className="absolute top-2 right-2 text-red-500 px-3 py-1"
+        className="absolute top-2 right-2 text-red-500"
       >
         X
       </button>
